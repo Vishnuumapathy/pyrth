@@ -1,0 +1,6 @@
+docker build -t python1139-trial .
+docker run python1139-trial
+docker login
+docker tag python1139-trial srikesh1122/python1139-trial
+docker push srikesh1122/python1139-trial
+docker ps
